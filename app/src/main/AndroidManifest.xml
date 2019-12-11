@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duolibras">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Prim_questao"
+            android:label="@string/title_activity_prim_questao"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".questao_6"
+            android:label="@string/title_activity_questao_6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questao_5"
+            android:label="@string/title_activity_questao_5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questao_4"
+            android:label="@string/title_activity_questao_4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".seg_tarefa"
+            android:label="@string/title_activity_seg_tarefa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questao_3"
+            android:label="@string/title_activity_questao_3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".questao_2"
+            android:label="@string/title_activity_questao_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".prim_tarefa"
+            android:label="@string/title_activity_prim_tarefa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".prim_fase"
+            android:label="@string/title_activity_prim_fase"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tela_boas_vindas"
+            android:label="@string/title_activity_tela_boas_vindas"
+            android:parentActivityName=".ui.login.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.duolibras.ui.login.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
